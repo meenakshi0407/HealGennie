@@ -1,0 +1,229 @@
+[
+  {
+    "tag": "greeting",
+    "patterns": [
+      "Hi",
+      "Hello",
+      "Hey",
+      "How are you"
+    ],
+    "responses": [
+      "Hello! How can I help you today?",
+      "Hi there, what's on your mind?"
+    ]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": [
+      "Bye",
+      "See you later",
+      "Goodbye"
+    ],
+    "responses": [
+      "Goodbye!",
+      "See you later!",
+      "Have a great day!"
+    ]
+  },
+  {
+    "tag": "health_advice",
+    "patterns": [
+      "I'm feeling sick",
+      "I have a headache",
+      "I'm not feeling well"
+    ],
+    "responses": [
+      "I'm sorry to hear that. It's important to rest and drink plenty of fluids. If symptoms persist, consult a healthcare professional.",
+      "Have you tried over-the-counter pain relievers? Remember to follow the dosage instructions."
+    ]
+  },
+  {
+    "tag": "fitness_advice",
+    "patterns": [
+      "How can I lose weight?",
+      "What's a good workout routine?",
+      "I want to get fit"
+    ],
+    "responses": [
+      "A balanced diet and regular exercise are key to weight loss. Consider consulting a nutritionist or fitness trainer.",
+      "A combination of cardio and strength training is ideal. You can find many workout routines online or consult a fitness professional."
+    ]
+  },
+  {
+    "tag": "mental_health",
+    "patterns": [
+      "I'm feeling stressed",
+      "I'm anxious",
+      "I'm depressed"
+    ],
+    "responses": [
+      "It's okay to feel stressed or anxious sometimes. Practice relaxation techniques like deep breathing and meditation.",
+      "If you're feeling depressed, please reach out to a mental health professional. You're not alone."
+    ]
+  },
+  {
+    "tag": "sleep_advice",
+    "patterns": [
+      "How can I improve my sleep?",
+      "I'm having trouble sleeping",
+      "What's a good sleep schedule?"
+    ],
+    "responses": [
+      "Establishing a regular sleep schedule, creating a relaxing bedtime routine, and avoiding screens before bed can improve sleep quality.",
+      "Consider consulting a healthcare professional if sleep problems persist."
+    ]
+  },
+  {
+    "tag": "diet_advice",
+    "patterns": [
+      "What should I eat to lose weight?",
+      "I need a healthy diet plan",
+      "What's a balanced diet?"
+    ],
+    "responses": [
+      "A balanced diet includes fruits, vegetables, whole grains, lean proteins, and healthy fats. Consult a registered dietitian for personalized advice.",
+      "To lose weight, focus on calorie control and regular exercise."
+    ]
+  },
+  {
+    "tag": "hydration_advice",
+    "patterns": [
+      "How much water should I drink?",
+      "I'm dehydrated",
+      "What are the signs of dehydration?"
+    ],
+    "responses": [
+      "Aim to drink plenty of water throughout the day. The exact amount varies, but staying hydrated is essential for overall health.",
+      "Signs of dehydration include thirst, dry mouth, and fatigue. Drink water to rehydrate."
+    ]
+  },
+  {
+    "tag": "yoga_tips",
+    "patterns": [
+      "What are some basic yoga poses for beginners?",
+      "How often should I practice yoga?",
+      "What are the benefits of yoga?"
+    ],
+    "responses": [
+      "Some basic yoga poses for beginners include: Mountain Pose, Warrior Pose, Downward-Facing Dog, and Child's Pose. Practice daily, even if it's just for a few minutes.",
+      "Yoga offers numerous benefits, including improved flexibility, strength, balance, and stress reduction."
+    ]
+  },
+  {
+    "tag": "exercise_tips",
+    "patterns": [
+      "How much exercise should I do per day?",
+      "What are some good beginner workouts?",
+      "How often should I do weight training?"
+    ],
+    "responses": [
+      "Aim for at least 30 minutes of moderate-intensity exercise most days of the week. Walking, jogging, biking, and swimming are great options.",
+      "Beginners can start with bodyweight exercises like squats, lunges, push-ups, and planks. As you get stronger, you can incorporate weights.",
+      "Weight training 2-3 times per week is a good starting point. Focus on compound exercises that work multiple muscle groups."
+    ]
+  },
+  {
+    "tag": "diabetes",
+    "patterns": [
+      "I have diabetes."
+    ],
+    "responses": [
+      "It's important to manage your diabetes with the guidance of your healthcare provider. Regular check-ups, medication adherence, and lifestyle modifications are crucial. For diabetes, maintaining a healthy diet, regular exercise, and monitoring blood sugar levels are essential."
+    ]
+  },
+
+  {
+    "tag": "high_blood_pressure",
+    "patterns": [
+      "I have high blood pressure."
+    ],
+    "responses": [
+      "For high blood pressure, a low-sodium diet, regular exercise, and medication as prescribed by your doctor can help control your blood pressure."
+    ]
+  },
+
+  {
+    "tag": "asthma",
+    "patterns": [
+      "I have asthma."
+    ],
+    "responses": [
+      "For asthma, using an inhaler as prescribed, avoiding triggers, and practicing breathing exercises can help manage symptoms."
+    ]
+  },
+
+  {
+    "tag": "heart_disease",
+    "patterns": [
+      "I have heart disease."
+    ],
+    "responses": [
+      "For heart disease, a healthy diet, regular exercise, and medication as prescribed by your doctor can reduce the risk of heart attacks and strokes."
+    ]
+  },
+
+  {
+    "tag": "arthritis",
+    "patterns": [
+      "I have arthritis."
+    ],
+    "responses": [
+      "For arthritis, physical therapy, medication, and lifestyle modifications can help manage pain and improve joint function."
+    ]
+  },
+  {
+    "tag": "stress_management",
+    "patterns": [
+      "I'm feeling stressed.",
+      "I'm anxious.",
+      "I'm overwhelmed.",
+      "I can't relax.",
+      "I need to reduce stress."
+    ],
+    "responses": [
+      "It's important to manage stress for overall well-being. Here are some effective strategies: practice relaxation techniques like deep breathing and meditation, engage in regular physical activity, get enough sleep, and spend time with loved ones.",
+      "Consider talking to a therapist or counselor to learn additional stress management techniques.",
+      "Remember, it's okay to seek help when you need it."
+    ]
+  },
+  {
+    "tag": "gratitude",
+    "patterns": [
+      "I'm not feeling good about myself.",
+      "I need a mood boost.",
+      "I want to practice gratitude."
+    ],
+    "responses": [
+      "Let's focus on the positive. What are you grateful for today?",
+      "Try saying positive affirmations to yourself, such as 'I am capable,' 'I am worthy,' and 'I am loved.'",
+      "Keeping a gratitude journal can help you focus on the positive aspects of your life."
+    ]
+  },
+
+  {
+    "tag": "loneliness",
+    "patterns": [
+      "I feel lonely.",
+      "I miss my friends and family.",
+      "I'm isolated."
+    ],
+    "responses": [
+      "It's okay to feel lonely sometimes. Reach out to friends and family, or join social groups and clubs to connect with others.",
+      "Try volunteering or helping others to feel more connected to your community.",
+      "Consider using social media or video calls to stay connected with loved ones."
+    ]
+  },
+  {
+    "tag": "healthy_habits",
+    "patterns": [
+      "I want to improve my lifestyle.",
+      "I need help with healthy habits.",
+      "I want to eat healthier."
+    ],
+    "responses": [
+      "Start by setting small, achievable goals, like drinking more water or eating more fruits and vegetables.",
+      "Create a balanced meal plan and incorporate regular exercise into your routine.",
+      "Prioritize sleep, manage stress, and practice mindfulness to improve your overall well-being."
+    ]
+  }
+]
