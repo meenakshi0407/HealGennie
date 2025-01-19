@@ -19,7 +19,7 @@ with open('intents.json', encoding='utf-8') as file:
   intents = json.load(file)
 
 #create vectorizer and classifier
-vectorizer = TfidfVectorizer(ngram_range=(1, 2))
+vectorizer = TfidfVectorizer(ngram_range=(1, 4))
 clf = LogisticRegression(random_state=0,max_iter=1000)
 
 #preprocess the data 
@@ -42,6 +42,7 @@ sparse_matrix= csr_matrix(x)
 #print(sparse_matrix)
 
 def chatbot(input_text):
+    input_text = input_text.lower()
     input_text=vectorizer.transform([input_text])
     tag=clf.predict(input_text)[0]
     for intent in intents:
@@ -126,5 +127,6 @@ def main():
       st.write("In this project, a chatbot is built that can understand and respond to user input based on intents. The chatbot was trained using NLP and Logistic Regression, and the interface was built using Streamlit. This project can be extended by adding more data, using more sophisticated NLP techniques, deep learning algorithms.")
 
 if __name__ == '__main__':
-    main()    
+    main()
+       
     

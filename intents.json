@@ -26,15 +26,42 @@
     ]
   },
   {
-    "tag": "health_advice",
+    "tag": "symptom_checker",
     "patterns": [
-      "I'm feeling sick",
-      "I have a headache",
-      "I'm not feeling well"
+      "I have a fever, what should I do?",
+      "What could cause a sore throat?",
+      "I'm feeling dizzy, can you help?"
     ],
     "responses": [
-      "I'm sorry to hear that. It's important to rest and drink plenty of fluids. If symptoms persist, consult a healthcare professional.",
-      "Have you tried over-the-counter pain relievers? Remember to follow the dosage instructions."
+      "For a fever, rest and stay hydrated. If it persists, consult a doctor.",
+      "A sore throat could be due to a cold or an infection. Gargle with warm salt water.",
+      "Feeling dizzy? Sit down and rest. If it continues, seek medical advice."
+    ]
+  },
+  {
+    "tag": "mental_health_support",
+    "patterns": [
+      "I'm feeling stressed",
+      "How can I deal with anxiety?",
+      "I need help with my mental health"
+    ],
+    "responses": [
+      "Try deep breathing or mindfulness exercises. Meditation can also help.",
+      "Take short breaks and talk to a trusted friend or therapist.",
+      "If stress feels overwhelming, consider professional counseling."
+    ]
+  },
+  {
+    "tag": "wellness_challenges",
+    "patterns": [
+      "Can you give me a fitness challenge?",
+      "Motivate me to exercise",
+      "How can I stay consistent with my goals?"
+    ],
+    "responses": [
+      "Try the 10,000 steps-a-day challenge to keep yourself active!",
+      "Remember, every small step counts. You’re doing great!",
+      "Set small, achievable goals and reward yourself for completing them."
     ]
   },
   {
@@ -50,18 +77,6 @@
     ]
   },
   {
-    "tag": "mental_health",
-    "patterns": [
-      "I'm feeling stressed",
-      "I'm anxious",
-      "I'm depressed"
-    ],
-    "responses": [
-      "It's okay to feel stressed or anxious sometimes. Practice relaxation techniques like deep breathing and meditation.",
-      "If you're feeling depressed, please reach out to a mental health professional. You're not alone."
-    ]
-  },
-  {
     "tag": "sleep_advice",
     "patterns": [
       "How can I improve my sleep?",
@@ -74,11 +89,25 @@
     ]
   },
   {
+    "tag": "emergency_information",
+    "patterns": [
+      "What should I do for a burn?",
+      "How do I perform CPR?",
+      "Help, I cut myself"
+    ],
+    "responses": [
+      "For minor burns, cool the area with running water and cover it with a clean cloth.",
+      "To perform CPR, give 30 chest compressions followed by 2 rescue breaths. Repeat until help arrives.",
+      "Clean the wound with water, apply pressure to stop bleeding, and cover with a sterile bandage."
+    ]
+  },
+  {
     "tag": "diet_advice",
     "patterns": [
       "What should I eat to lose weight?",
       "I need a healthy diet plan",
-      "What's a balanced diet?"
+      "What's a balanced diet?",
+      "I want to eat healthier."
     ],
     "responses": [
       "A balanced diet includes fruits, vegetables, whole grains, lean proteins, and healthy fats. Consult a registered dietitian for personalized advice.",
@@ -151,7 +180,6 @@
       "For asthma, using an inhaler as prescribed, avoiding triggers, and practicing breathing exercises can help manage symptoms."
     ]
   },
-
   {
     "tag": "heart_disease",
     "patterns": [
@@ -159,31 +187,6 @@
     ],
     "responses": [
       "For heart disease, a healthy diet, regular exercise, and medication as prescribed by your doctor can reduce the risk of heart attacks and strokes."
-    ]
-  },
-
-  {
-    "tag": "arthritis",
-    "patterns": [
-      "I have arthritis."
-    ],
-    "responses": [
-      "For arthritis, physical therapy, medication, and lifestyle modifications can help manage pain and improve joint function."
-    ]
-  },
-  {
-    "tag": "stress_management",
-    "patterns": [
-      "I'm feeling stressed.",
-      "I'm anxious.",
-      "I'm overwhelmed.",
-      "I can't relax.",
-      "I need to reduce stress."
-    ],
-    "responses": [
-      "It's important to manage stress for overall well-being. Here are some effective strategies: practice relaxation techniques like deep breathing and meditation, engage in regular physical activity, get enough sleep, and spend time with loved ones.",
-      "Consider talking to a therapist or counselor to learn additional stress management techniques.",
-      "Remember, it's okay to seek help when you need it."
     ]
   },
   {
@@ -224,6 +227,19 @@
       "Start by setting small, achievable goals, like drinking more water or eating more fruits and vegetables.",
       "Create a balanced meal plan and incorporate regular exercise into your routine.",
       "Prioritize sleep, manage stress, and practice mindfulness to improve your overall well-being."
+    ]
+  },
+  {
+    "tag": "user_support",
+    "patterns": [
+      "How do I use this chatbot?",
+      "What can you do?",
+      "Help me navigate this tool"
+    ],
+    "responses": [
+      "You can ask me about health, fitness, mental well-being, and more. Try typing your question!",
+      "I'm here to provide health tips, answer questions, and give recommendations.",
+      "Use the menu to explore features like conversation history or health tips."
     ]
   }
 ]
