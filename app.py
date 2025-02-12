@@ -55,12 +55,12 @@ counter=0
 def main():
     global counter
     st.title("HealGennie")
-   
+    st.code("Hi,I am a Chatbot for Health and Wellness.\nI am here to help you with queries related to health,fitness,and Wellness.\nFeel free to ask me!")
     menu=["Home","Conversation history","About"]
     choice=st.sidebar.selectbox("Menu",menu)
 
     if choice=='Home':
-      st.write("Welcome to the HealGennie chatbot. Please type a message and press Enter to start the conversation.")
+      st.caption("Welcome to the HealGennie chatbot. Please type a message and press Enter to start the conversation.")
 
       if not os.path.exists("chat_log.csv"):
         with open("chat_log.csv","w",newline='',encoding="utf-8") as csvfile:

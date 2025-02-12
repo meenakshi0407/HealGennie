@@ -56,6 +56,7 @@
     "patterns": [
       "Can you give me a fitness challenge?",
       "Motivate me to exercise",
+      "how to achieve 10000 steps a day?",
       "How can I stay consistent with my goals?"
     ],
     "responses": [
@@ -64,6 +65,76 @@
       "Set small, achievable goals and reward yourself for completing them."
     ]
   },
+  {
+    "tag": "sugar_consumption",
+    "patterns": [
+        "What happens if I eat too much sugar?",
+        "Is too much sugar bad for my health?",
+        "How can I reduce my sugar intake?",
+        "What are the signs of eating too much sugar?",
+        "Can too much sugar cause weight gain?",
+        "What are healthy alternatives to sugar?"
+    ],
+    "responses": [
+        "Eating too much sugar can lead to weight gain, increased risk of diabetes, tooth decay, and energy crashes.",
+        "Yes, excessive sugar consumption can contribute to obesity, heart disease, and insulin resistance.",
+        "To reduce sugar intake, try eating more whole foods, reading nutrition labels, and replacing sugary drinks with water or herbal tea.",
+        "Signs of too much sugar include frequent cravings, energy crashes, acne, bloating, and trouble focusing.",
+        "Yes, consuming too much sugar leads to excess calorie intake, which can result in weight gain over time.",
+        "Healthy sugar alternatives include honey, stevia, monk fruit, and natural fruit-based sweeteners."
+    ]
+},
+{
+  "tag": "caffeine_consumption",
+  "patterns": [
+      "What happens if I drink too much coffee?",
+      "Is too much caffeine bad for me?",
+      "How much caffeine is too much?",
+      "Can caffeine cause anxiety?",
+      "What are the side effects of too much caffeine?"
+  ],
+  "responses": [
+      "Drinking too much coffee can lead to restlessness, insomnia, increased heart rate, and digestive issues.",
+      "Yes, excessive caffeine can cause jitters, headaches, and even increase anxiety levels.",
+      "For most adults, consuming over 400 mg of caffeine per day (about 4 cups of coffee) may be too much.",
+      "Yes, caffeine stimulates the nervous system, which can lead to increased anxiety or nervousness in some people.",
+      "Common side effects of excessive caffeine include difficulty sleeping, dehydration, and dependency on caffeine for energy."
+  ]
+},
+{
+  "tag": "junk_food",
+  "patterns": [
+      "What happens if I eat too much junk food?",
+      "Is junk food bad for my health?",
+      "How can I stop eating junk food?",
+      "Can fast food cause weight gain?",
+      "What are healthy alternatives to junk food?"
+  ],
+  "responses": [
+      "Eating too much junk food can lead to weight gain, digestive issues, and an increased risk of chronic diseases.",
+      "Yes, junk food is often high in unhealthy fats, sugars, and processed ingredients that can negatively impact your health.",
+      "You can reduce junk food cravings by eating more whole foods, staying hydrated, and avoiding processed snacks.",
+      "Yes, fast food is typically high in calories and unhealthy fats, which can lead to weight gain if consumed frequently.",
+      "Healthy alternatives include homemade smoothies, nuts, fruits, Greek yogurt, and air-popped popcorn instead of chips."
+  ]
+},
+{
+  "tag": "screen_time",
+  "patterns": [
+      "What happens if I use my phone too much?",
+      "Can too much screen time affect my sleep?",
+      "How can I reduce screen time?",
+      "Does screen time cause eye strain?",
+      "What are the effects of too much screen time?"
+  ],
+  "responses": [
+      "Excessive screen time can lead to eye strain, poor sleep, and reduced physical activity.",
+      "Yes, too much screen exposure—especially before bedtime—can disrupt melatonin production and affect sleep quality.",
+      "You can reduce screen time by setting limits, taking breaks, using blue light filters, and engaging in offline activities.",
+      "Yes, staring at screens for long periods can cause digital eye strain, headaches, and dry eyes.",
+      "Too much screen time can lead to poor posture, reduced focus, and an increased risk of mental fatigue."
+  ]
+},
   {
     "tag": "fitness_advice",
     "patterns": [
@@ -152,6 +223,23 @@
     ]
   },
   {
+    "tag": "acidity",
+    "patterns": [
+        "What causes acidity?",
+        "How can I get rid of acidity?",
+        "What are the symptoms of acidity?",
+        "Which foods help with acidity?",
+        "How to prevent acid reflux?"
+    ],
+    "responses": [
+        "Acidity is often caused by excess stomach acid due to spicy foods, stress, or irregular eating habits.",
+        "You can reduce acidity by drinking cold milk, eating bananas, avoiding spicy food, and staying hydrated.",
+        "Common symptoms of acidity include heartburn, indigestion, bloating, and a sour taste in the mouth.",
+        "Foods like bananas, yogurt, oatmeal, and green vegetables can help soothe acidity.",
+        "Prevent acid reflux by eating smaller meals, avoiding lying down after eating, and reducing caffeine intake."
+    ]
+},
+  {
     "tag": "diabetes",
     "patterns": [
       "I have diabetes."
@@ -190,6 +278,23 @@
     ]
   },
   {
+      "tag": "stomach_pain",
+      "patterns": [
+          "What causes stomach pain?",
+          "How can I relieve stomach pain?",
+          "What are the common symptoms of stomach pain?",
+          "Which foods help with stomach pain?",
+          "When should I see a doctor for stomach pain?"
+      ],
+      "responses": [
+          "Stomach pain can be caused by indigestion, gas, acidity, infections, or even stress.",
+          "You can relieve stomach pain by drinking warm water, avoiding spicy foods, and taking over-the-counter antacids if needed.",
+          "Common symptoms of stomach pain include bloating, nausea, cramps, and discomfort after eating.",
+          "Foods like ginger, peppermint tea, bananas, and plain yogurt can help ease stomach pain.",
+          "See a doctor if your stomach pain is severe, lasts more than a few days, or is accompanied by fever, vomiting, or blood in stool."
+      ]
+  },
+  {
     "tag": "gratitude",
     "patterns": [
       "I'm not feeling good about myself.",
@@ -202,6 +307,43 @@
       "Keeping a gratitude journal can help you focus on the positive aspects of your life."
     ]
   },
+  {
+    "tag": "skin_care",
+    "patterns": [
+        "How can I get clear skin?",
+        "What are the best skincare tips?",
+        "How does diet affect skin health?",
+        "What causes acne and how to prevent it?",
+        "How can I keep my skin hydrated?",
+        "What are some natural remedies for glowing skin?"
+    ],
+    "responses": [
+        "To get clear skin, cleanse daily, stay hydrated, eat a balanced diet, and avoid touching your face frequently.",
+        "Good skincare habits include using sunscreen, moisturizing, exfoliating gently, and maintaining a healthy lifestyle.",
+        "Your diet plays a huge role in skin health. Eating antioxidant-rich foods like fruits, vegetables, and nuts can promote a glowing complexion.",
+        "Acne is often caused by excess oil production, clogged pores, bacteria, and hormonal changes. Prevent it by washing your face regularly, avoiding oily foods, and keeping your skin hydrated.",
+        "To keep your skin hydrated, drink plenty of water, use a good moisturizer, and avoid harsh soaps that strip away natural oils.",
+        "Natural remedies for glowing skin include applying honey, aloe vera, turmeric masks, and drinking green tea for its antioxidants."
+    ]
+},
+{
+  "tag": "late_night_eating",
+  "patterns": [
+      "Is eating late at night bad?",
+      "Can eating before bed make me gain weight?",
+      "What are the effects of late-night snacking?",
+      "What should I eat if I’m hungry at night?",
+      "How can I stop late-night cravings?"
+  ],
+  "responses": [
+      "Eating late at night can affect digestion, disrupt sleep, and lead to weight gain if you consume excess calories.",
+      "It depends on what you eat! Unhealthy snacks before bed may contribute to weight gain, while light, nutritious options can be okay.",
+      "Late-night snacking can lead to poor digestion, acid reflux, and unnecessary calorie consumption.",
+      "If you’re hungry at night, choose light options like a banana, Greek yogurt, or a handful of nuts instead of junk food.",
+      "To stop late-night cravings, eat balanced meals during the day, stay hydrated, and brush your teeth early to signal the end of eating."
+  ]
+},
+
 
   {
     "tag": "loneliness",
@@ -242,4 +384,5 @@
       "Use the menu to explore features like conversation history or health tips."
     ]
   }
+
 ]
