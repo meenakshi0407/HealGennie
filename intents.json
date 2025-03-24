@@ -307,25 +307,6 @@
       "Keeping a gratitude journal can help you focus on the positive aspects of your life."
     ]
   },
-  {
-    "tag": "skin_care",
-    "patterns": [
-        "How can I get clear skin?",
-        "What are the best skincare tips?",
-        "How does diet affect skin health?",
-        "What causes acne and how to prevent it?",
-        "How can I keep my skin hydrated?",
-        "What are some natural remedies for glowing skin?"
-    ],
-    "responses": [
-        "To get clear skin, cleanse daily, stay hydrated, eat a balanced diet, and avoid touching your face frequently.",
-        "Good skincare habits include using sunscreen, moisturizing, exfoliating gently, and maintaining a healthy lifestyle.",
-        "Your diet plays a huge role in skin health. Eating antioxidant-rich foods like fruits, vegetables, and nuts can promote a glowing complexion.",
-        "Acne is often caused by excess oil production, clogged pores, bacteria, and hormonal changes. Prevent it by washing your face regularly, avoiding oily foods, and keeping your skin hydrated.",
-        "To keep your skin hydrated, drink plenty of water, use a good moisturizer, and avoid harsh soaps that strip away natural oils.",
-        "Natural remedies for glowing skin include applying honey, aloe vera, turmeric masks, and drinking green tea for its antioxidants."
-    ]
-},
 {
   "tag": "late_night_eating",
   "patterns": [
@@ -348,6 +329,7 @@
   {
     "tag": "loneliness",
     "patterns": [
+      "I am feeling Stressed.",
       "I feel lonely.",
       "I miss my friends and family.",
       "I'm isolated."
