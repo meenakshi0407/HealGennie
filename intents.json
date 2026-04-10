@@ -2,174 +2,28 @@
   {
     "tag": "greeting",
     "patterns": [
-      "Hi",
-      "Hello",
-      "Hey",
-      "How are you"
+      "Hi", "Hello", "Hey", "How are you", "Good morning", "Good evening",
+      "Good afternoon", "What's up", "Howdy", "Hi there", "Hello there",
+      "Hey there", "Greetings", "Hi bot", "Hello bot", "Hey bot",
+      "Is anyone there?", "Anyone home?", "Start", "Begin"
     ],
     "responses": [
-      "Hello! How can I help you today?",
-      "Hi there, what's on your mind?"
+      "Hello! How can I help you today? 😊",
+      "Hi there! What health topic can I assist you with?",
+      "Hey! I'm HealGennie, your health and wellness assistant. How can I help?"
     ]
   },
   {
     "tag": "goodbye",
     "patterns": [
-      "Bye",
-      "See you later",
-      "Goodbye"
+      "Bye", "See you later", "Goodbye", "See you", "Take care",
+      "Catch you later", "I'm done", "That's all", "Thanks bye",
+      "Bye bye", "Farewell", "Later", "I'm leaving", "Exit", "Quit"
     ],
     "responses": [
-      "Goodbye!",
-      "See you later!",
-      "Have a great day!"
-    ]
-  },
-  {
-    "tag": "symptom_checker",
-    "patterns": [
-      "I have a fever, what should I do?",
-      "What could cause a sore throat?",
-      "I'm feeling dizzy, can you help?"
-    ],
-    "responses": [
-      "For a fever, rest and stay hydrated. If it persists, consult a doctor.",
-      "A sore throat could be due to a cold or an infection. Gargle with warm salt water.",
-      "Feeling dizzy? Sit down and rest. If it continues, seek medical advice."
-    ]
-  },
-  {
-    "tag": "mental_health_support",
-    "patterns": [
-      "I'm feeling stressed",
-      "How can I deal with anxiety?",
-      "I need help with my mental health"
-    ],
-    "responses": [
-      "Try deep breathing or mindfulness exercises. Meditation can also help.",
-      "Take short breaks and talk to a trusted friend or therapist.",
-      "If stress feels overwhelming, consider professional counseling."
-    ]
-  },
-  {
-    "tag": "wellness_challenges",
-    "patterns": [
-      "Can you give me a fitness challenge?",
-      "Motivate me to exercise",
-      "how to achieve 10000 steps a day?",
-      "How can I stay consistent with my goals?"
-    ],
-    "responses": [
-      "Try the 10,000 steps-a-day challenge to keep yourself active!",
-      "Remember, every small step counts. You’re doing great!",
-      "Set small, achievable goals and reward yourself for completing them."
-    ]
-  },
-  {
-    "tag": "sugar_consumption",
-    "patterns": [
-        "What happens if I eat too much sugar?",
-        "Is too much sugar bad for my health?",
-        "How can I reduce my sugar intake?",
-        "What are the signs of eating too much sugar?",
-        "Can too much sugar cause weight gain?",
-        "What are healthy alternatives to sugar?"
-    ],
-    "responses": [
-        "Eating too much sugar can lead to weight gain, increased risk of diabetes, tooth decay, and energy crashes.",
-        "Yes, excessive sugar consumption can contribute to obesity, heart disease, and insulin resistance.",
-        "To reduce sugar intake, try eating more whole foods, reading nutrition labels, and replacing sugary drinks with water or herbal tea.",
-        "Signs of too much sugar include frequent cravings, energy crashes, acne, bloating, and trouble focusing.",
-        "Yes, consuming too much sugar leads to excess calorie intake, which can result in weight gain over time.",
-        "Healthy sugar alternatives include honey, stevia, monk fruit, and natural fruit-based sweeteners."
-    ]
-},
-{
-  "tag": "caffeine_consumption",
-  "patterns": [
-      "What happens if I drink too much coffee?",
-      "Is too much caffeine bad for me?",
-      "How much caffeine is too much?",
-      "Can caffeine cause anxiety?",
-      "What are the side effects of too much caffeine?"
-  ],
-  "responses": [
-      "Drinking too much coffee can lead to restlessness, insomnia, increased heart rate, and digestive issues.",
-      "Yes, excessive caffeine can cause jitters, headaches, and even increase anxiety levels.",
-      "For most adults, consuming over 400 mg of caffeine per day (about 4 cups of coffee) may be too much.",
-      "Yes, caffeine stimulates the nervous system, which can lead to increased anxiety or nervousness in some people.",
-      "Common side effects of excessive caffeine include difficulty sleeping, dehydration, and dependency on caffeine for energy."
-  ]
-},
-{
-  "tag": "junk_food",
-  "patterns": [
-      "What happens if I eat too much junk food?",
-      "Is junk food bad for my health?",
-      "How can I stop eating junk food?",
-      "Can fast food cause weight gain?",
-      "What are healthy alternatives to junk food?"
-  ],
-  "responses": [
-      "Eating too much junk food can lead to weight gain, digestive issues, and an increased risk of chronic diseases.",
-      "Yes, junk food is often high in unhealthy fats, sugars, and processed ingredients that can negatively impact your health.",
-      "You can reduce junk food cravings by eating more whole foods, staying hydrated, and avoiding processed snacks.",
-      "Yes, fast food is typically high in calories and unhealthy fats, which can lead to weight gain if consumed frequently.",
-      "Healthy alternatives include homemade smoothies, nuts, fruits, Greek yogurt, and air-popped popcorn instead of chips."
-  ]
-},
-{
-  "tag": "screen_time",
-  "patterns": [
-      "What happens if I use my phone too much?",
-      "Can too much screen time affect my sleep?",
-      "How can I reduce screen time?",
-      "Does screen time cause eye strain?",
-      "What are the effects of too much screen time?"
-  ],
-  "responses": [
-      "Excessive screen time can lead to eye strain, poor sleep, and reduced physical activity.",
-      "Yes, too much screen exposure—especially before bedtime—can disrupt melatonin production and affect sleep quality.",
-      "You can reduce screen time by setting limits, taking breaks, using blue light filters, and engaging in offline activities.",
-      "Yes, staring at screens for long periods can cause digital eye strain, headaches, and dry eyes.",
-      "Too much screen time can lead to poor posture, reduced focus, and an increased risk of mental fatigue."
-  ]
-},
-  {
-    "tag": "fitness_advice",
-    "patterns": [
-      "How can I lose weight?",
-      "What's a good workout routine?",
-      "I want to get fit"
-    ],
-    "responses": [
-      "A balanced diet and regular exercise are key to weight loss. Consider consulting a nutritionist or fitness trainer.",
-      "A combination of cardio and strength training is ideal. You can find many workout routines online or consult a fitness professional."
-    ]
-  },
-  {
-    "tag": "sleep_advice",
-    "patterns": [
-      "How can I improve my sleep?",
-      "I'm having trouble sleeping",
-      "What's a good sleep schedule?"
-    ],
-    "responses": [
-      "Establishing a regular sleep schedule, creating a relaxing bedtime routine, and avoiding screens before bed can improve sleep quality.",
-      "Consider consulting a healthcare professional if sleep problems persist."
-    ]
-  },
-  {
-    "tag": "emergency_information",
-    "patterns": [
-      "What should I do for a burn?",
-      "How do I perform CPR?",
-      "Help, I cut myself"
-    ],
-    "responses": [
-      "For minor burns, cool the area with running water and cover it with a clean cloth.",
-      "To perform CPR, give 30 chest compressions followed by 2 rescue breaths. Repeat until help arrives.",
-      "Clean the wound with water, apply pressure to stop bleeding, and cover with a sterile bandage."
+      "Goodbye! Take care of yourself! 💚",
+      "See you later! Stay healthy!",
+      "Have a great day! Come back anytime!"
     ]
   },
   {
@@ -178,11 +32,124 @@
       "What should I eat to lose weight?",
       "I need a healthy diet plan",
       "What's a balanced diet?",
-      "I want to eat healthier."
+      "I want to eat healthier",
+      "Give me diet tips",
+      "Can you give me some diet tips",
+      "What are some diet tips",
+      "How to eat healthy",
+      "What is a good diet",
+      "Best diet plan",
+      "Healthy eating tips",
+      "Nutrition tips",
+      "What foods should I eat",
+      "What foods should I avoid",
+      "Healthy food suggestions",
+      "How to improve my diet",
+      "Tips for eating healthy",
+      "Diet suggestions",
+      "What should I eat daily",
+      "How to have a good diet",
+      "Tell me about healthy eating",
+      "Food tips for good health",
+      "Healthy meal ideas",
+      "How to start eating healthy",
+      "What is good nutrition"
     ],
     "responses": [
+      "Here are some diet tips: 🥗\n1. Eat more vegetables and fruits\n2. Choose whole grains over refined ones\n3. Include lean protein in every meal\n4. Limit processed and fried foods\n5. Stay hydrated with water",
       "A balanced diet includes fruits, vegetables, whole grains, lean proteins, and healthy fats. Consult a registered dietitian for personalized advice.",
-      "To lose weight, focus on calorie control and regular exercise."
+      "To eat healthier: Start small — swap one unhealthy food at a time, cook at home more often, and read nutrition labels carefully!"
+    ]
+  },
+  {
+    "tag": "fitness_advice",
+    "patterns": [
+      "How can I lose weight?",
+      "What's a good workout routine?",
+      "I want to get fit",
+      "How to start working out",
+      "Best exercises for beginners",
+      "How to get in shape",
+      "Tips for losing weight",
+      "How to burn fat",
+      "What exercise should I do",
+      "How to stay fit",
+      "Workout tips",
+      "Fitness tips for beginners",
+      "How to build muscle",
+      "How to tone my body",
+      "Best way to lose belly fat",
+      "How to start a fitness routine",
+      "I want to be more active",
+      "How to exercise regularly",
+      "What is a good fitness plan",
+      "Help me get fit"
+    ],
+    "responses": [
+      "A combination of cardio and strength training is ideal for fitness. Start with 30 minutes of exercise most days of the week!",
+      "To lose weight: Focus on a calorie deficit through a balanced diet and regular exercise. Walking, jogging, and strength training are great starting points.",
+      "For beginners: Start with bodyweight exercises like squats, lunges, push-ups, and planks. Gradually increase intensity as you get stronger 💪"
+    ]
+  },
+  {
+    "tag": "mental_health_support",
+    "patterns": [
+      "I'm feeling stressed",
+      "How can I deal with anxiety?",
+      "I need help with my mental health",
+      "I feel anxious",
+      "I am depressed",
+      "How to reduce stress",
+      "I feel overwhelmed",
+      "Tips for mental health",
+      "How to calm down",
+      "I have anxiety",
+      "How to manage stress",
+      "I feel mentally exhausted",
+      "Ways to reduce anxiety",
+      "How to improve mental health",
+      "I feel burnt out",
+      "I'm having panic attacks",
+      "How to deal with depression",
+      "Mental health tips",
+      "I feel emotionally drained",
+      "How to cope with stress",
+      "I feel nervous all the time",
+      "How to relax my mind"
+    ],
+    "responses": [
+      "Try deep breathing or mindfulness exercises. Even 5 minutes of meditation can help calm your mind 🧘",
+      "Take short breaks, talk to a trusted friend or therapist, and remember — it's okay to ask for help!",
+      "For stress and anxiety: Exercise regularly, get enough sleep, limit caffeine, and practice gratitude daily.",
+      "If stress feels overwhelming, consider professional counseling. Your mental health matters! 💙"
+    ]
+  },
+  {
+    "tag": "sleep_advice",
+    "patterns": [
+      "How can I improve my sleep?",
+      "I'm having trouble sleeping",
+      "What's a good sleep schedule?",
+      "How to sleep better",
+      "Tips for better sleep",
+      "I can't sleep at night",
+      "How many hours should I sleep",
+      "Why am I not sleeping well",
+      "Remedies for insomnia",
+      "How to fall asleep faster",
+      "What causes poor sleep",
+      "How to fix my sleep schedule",
+      "I wake up tired",
+      "How to get deep sleep",
+      "Why do I feel sleepy during the day",
+      "How to stop oversleeping",
+      "Best time to sleep",
+      "How to sleep early"
+    ],
+    "responses": [
+      "For better sleep: Maintain a consistent sleep schedule, avoid screens before bed, and keep your room cool and dark 🌙",
+      "Aim for 7–9 hours of sleep per night. A relaxing bedtime routine like reading or light stretching can help.",
+      "To fall asleep faster: Avoid caffeine after 2pm, limit naps, and try deep breathing exercises before bed."
     ]
   },
   {
@@ -190,11 +157,75 @@
     "patterns": [
       "How much water should I drink?",
       "I'm dehydrated",
-      "What are the signs of dehydration?"
+      "What are the signs of dehydration?",
+      "How to stay hydrated",
+      "Is drinking water important",
+      "How many glasses of water per day",
+      "Benefits of drinking water",
+      "How much water should I drink daily",
+      "How to drink more water",
+      "Why is hydration important",
+      "Signs I need to drink more water",
+      "How to increase water intake",
+      "What happens if I don't drink enough water",
+      "Best drinks for hydration"
     ],
     "responses": [
-      "Aim to drink plenty of water throughout the day. The exact amount varies, but staying hydrated is essential for overall health.",
-      "Signs of dehydration include thirst, dry mouth, and fatigue. Drink water to rehydrate."
+      "Aim to drink at least 8 glasses (2 litres) of water daily. More if you exercise or live in a hot climate 💧",
+      "Signs of dehydration include dark urine, dry mouth, fatigue, and headaches. Drink water regularly throughout the day!",
+      "Tips to drink more water: Carry a water bottle, set reminders, and eat water-rich foods like cucumber and watermelon."
+    ]
+  },
+  {
+    "tag": "symptom_checker",
+    "patterns": [
+      "I have a fever, what should I do?",
+      "What could cause a sore throat?",
+      "I'm feeling dizzy, can you help?",
+      "I have a headache",
+      "I feel nauseous",
+      "I have a cold",
+      "I'm coughing a lot",
+      "I have body pain",
+      "I feel weak",
+      "I have a runny nose",
+      "What to do when I have fever",
+      "I have chest pain",
+      "I feel short of breath",
+      "My throat hurts",
+      "I have a stomach ache",
+      "I feel feverish",
+      "I have joint pain",
+      "I'm vomiting",
+      "I feel lightheaded"
+    ],
+    "responses": [
+      "For a fever, rest and stay hydrated. If it's above 103°F or persists more than 3 days, consult a doctor.",
+      "A sore throat could be due to a cold or infection. Gargle with warm salt water and stay hydrated.",
+      "Feeling dizzy? Sit down, rest, and drink water. If it continues or is severe, seek medical advice immediately."
+    ]
+  },
+  {
+    "tag": "wellness_challenges",
+    "patterns": [
+      "Can you give me a fitness challenge?",
+      "Motivate me to exercise",
+      "How to achieve 10000 steps a day?",
+      "How can I stay consistent with my goals?",
+      "Give me a health challenge",
+      "How to stay motivated to workout",
+      "I need motivation to be healthy",
+      "How to build a healthy habit",
+      "Daily health challenge",
+      "How to stay on track with fitness",
+      "How to not give up on my goals",
+      "Tips to stay consistent",
+      "How to make exercise a habit"
+    ],
+    "responses": [
+      "Try the 10,000 steps-a-day challenge to keep yourself active! Track it with a fitness band or phone app 🚶",
+      "Remember, every small step counts. You're doing great! Start with just 10 minutes a day and build from there.",
+      "Set small, achievable goals and reward yourself for completing them. Consistency beats perfection every time! 💪"
     ]
   },
   {
@@ -202,11 +233,23 @@
     "patterns": [
       "What are some basic yoga poses for beginners?",
       "How often should I practice yoga?",
-      "What are the benefits of yoga?"
+      "What are the benefits of yoga?",
+      "How to start yoga",
+      "Yoga tips for beginners",
+      "Is yoga good for health",
+      "Best yoga poses",
+      "How does yoga help",
+      "Yoga for stress relief",
+      "Yoga for flexibility",
+      "Yoga for weight loss",
+      "How many minutes of yoga per day",
+      "Can yoga help with back pain",
+      "Morning yoga routine"
     ],
     "responses": [
-      "Some basic yoga poses for beginners include: Mountain Pose, Warrior Pose, Downward-Facing Dog, and Child's Pose. Practice daily, even if it's just for a few minutes.",
-      "Yoga offers numerous benefits, including improved flexibility, strength, balance, and stress reduction."
+      "Basic yoga poses for beginners: Mountain Pose, Warrior Pose, Downward-Facing Dog, and Child's Pose 🧘. Practice daily even for just a few minutes!",
+      "Yoga offers many benefits: improved flexibility, strength, balance, and stress reduction. Start with 15–20 minutes a day.",
+      "Yoga is great for stress relief! Try deep breathing (Pranayama) along with gentle stretching for a calming effect."
     ]
   },
   {
@@ -214,143 +257,321 @@
     "patterns": [
       "How much exercise should I do per day?",
       "What are some good beginner workouts?",
-      "How often should I do weight training?"
+      "How often should I do weight training?",
+      "Best exercises for health",
+      "How to start exercising",
+      "Exercise tips for beginners",
+      "How long should I workout",
+      "What type of exercise is best",
+      "Should I do cardio or weights",
+      "How many days a week should I exercise",
+      "How to exercise at home",
+      "Exercises without equipment",
+      "Simple daily exercises"
     ],
     "responses": [
-      "Aim for at least 30 minutes of moderate-intensity exercise most days of the week. Walking, jogging, biking, and swimming are great options.",
-      "Beginners can start with bodyweight exercises like squats, lunges, push-ups, and planks. As you get stronger, you can incorporate weights.",
-      "Weight training 2-3 times per week is a good starting point. Focus on compound exercises that work multiple muscle groups."
+      "Aim for at least 30 minutes of moderate exercise most days. Walking, jogging, biking, and swimming are great options! 🏃",
+      "Beginners can start with bodyweight exercises: squats, lunges, push-ups, and planks. Add weights gradually as you get stronger.",
+      "Weight training 2–3 times per week is a good starting point. Focus on compound exercises that work multiple muscle groups."
+    ]
+  },
+  {
+    "tag": "sugar_consumption",
+    "patterns": [
+      "What happens if I eat too much sugar?",
+      "Is too much sugar bad for my health?",
+      "How can I reduce my sugar intake?",
+      "What are the signs of eating too much sugar?",
+      "Can too much sugar cause weight gain?",
+      "What are healthy alternatives to sugar?",
+      "How to cut down on sugar",
+      "Is sugar bad for you",
+      "Effects of too much sugar",
+      "How much sugar is too much",
+      "Sugar and diabetes",
+      "How to avoid sugar cravings",
+      "Why do I crave sugar"
+    ],
+    "responses": [
+      "Eating too much sugar can lead to weight gain, increased risk of diabetes, tooth decay, and energy crashes.",
+      "To reduce sugar intake: Eat more whole foods, read nutrition labels, and replace sugary drinks with water or herbal tea 🍵",
+      "Healthy sugar alternatives include honey, stevia, monk fruit, and natural fruit-based sweeteners."
+    ]
+  },
+  {
+    "tag": "caffeine_consumption",
+    "patterns": [
+      "What happens if I drink too much coffee?",
+      "Is too much caffeine bad for me?",
+      "How much caffeine is too much?",
+      "Can caffeine cause anxiety?",
+      "What are the side effects of too much caffeine?",
+      "Is coffee bad for health",
+      "How many cups of coffee per day is safe",
+      "Does coffee affect sleep",
+      "Effects of caffeine on the body",
+      "Should I quit coffee",
+      "How to reduce caffeine intake",
+      "Can tea replace coffee"
+    ],
+    "responses": [
+      "Too much coffee can lead to restlessness, insomnia, increased heart rate, and digestive issues.",
+      "For most adults, more than 400mg of caffeine per day (about 4 cups of coffee) may be excessive.",
+      "Yes, caffeine stimulates the nervous system which can increase anxiety. Try switching to green tea for a gentler boost! 🍵"
+    ]
+  },
+  {
+    "tag": "junk_food",
+    "patterns": [
+      "What happens if I eat too much junk food?",
+      "Is junk food bad for my health?",
+      "How can I stop eating junk food?",
+      "Can fast food cause weight gain?",
+      "What are healthy alternatives to junk food?",
+      "Why is junk food unhealthy",
+      "How to avoid junk food",
+      "How to resist junk food cravings",
+      "Effects of eating junk food daily",
+      "Is it okay to eat junk food sometimes",
+      "Healthy snacks instead of junk food",
+      "Why do I crave junk food"
+    ],
+    "responses": [
+      "Eating too much junk food can lead to weight gain, digestive issues, and increased risk of chronic diseases.",
+      "You can reduce junk food cravings by eating whole foods, staying hydrated, and keeping healthy snacks handy 🥕",
+      "Healthy alternatives: Homemade smoothies, nuts, fruits, Greek yogurt, and air-popped popcorn instead of chips!"
+    ]
+  },
+  {
+    "tag": "screen_time",
+    "patterns": [
+      "What happens if I use my phone too much?",
+      "Can too much screen time affect my sleep?",
+      "How can I reduce screen time?",
+      "Does screen time cause eye strain?",
+      "What are the effects of too much screen time?",
+      "Is too much screen time bad",
+      "How many hours of screen time is healthy",
+      "How to take a break from phone",
+      "Effects of phone addiction",
+      "How to reduce phone usage",
+      "Digital detox tips",
+      "How to protect eyes from screen"
+    ],
+    "responses": [
+      "Excessive screen time can lead to eye strain, poor sleep, and reduced physical activity.",
+      "Too much screen exposure before bedtime disrupts melatonin production and affects sleep quality.",
+      "To reduce screen time: Set daily limits, use blue light filters, take regular breaks, and try offline hobbies 📵"
     ]
   },
   {
     "tag": "acidity",
     "patterns": [
-        "What causes acidity?",
-        "How can I get rid of acidity?",
-        "What are the symptoms of acidity?",
-        "Which foods help with acidity?",
-        "How to prevent acid reflux?"
+      "What causes acidity?",
+      "How can I get rid of acidity?",
+      "What are the symptoms of acidity?",
+      "Which foods help with acidity?",
+      "How to prevent acid reflux?",
+      "I have acidity",
+      "I have heartburn",
+      "Home remedies for acidity",
+      "How to reduce acidity naturally",
+      "What to eat when I have acidity",
+      "Why do I get acidity",
+      "Acidity after eating"
     ],
     "responses": [
-        "Acidity is often caused by excess stomach acid due to spicy foods, stress, or irregular eating habits.",
-        "You can reduce acidity by drinking cold milk, eating bananas, avoiding spicy food, and staying hydrated.",
-        "Common symptoms of acidity include heartburn, indigestion, bloating, and a sour taste in the mouth.",
-        "Foods like bananas, yogurt, oatmeal, and green vegetables can help soothe acidity.",
-        "Prevent acid reflux by eating smaller meals, avoiding lying down after eating, and reducing caffeine intake."
+      "Acidity is often caused by spicy foods, stress, or irregular eating habits. Try eating smaller, frequent meals.",
+      "You can reduce acidity by drinking cold milk, eating bananas, avoiding spicy food, and staying hydrated 🍌",
+      "Foods that help with acidity: Bananas, yogurt, oatmeal, and green vegetables. Avoid caffeine and fried foods."
     ]
-},
+  },
+  {
+    "tag": "stomach_pain",
+    "patterns": [
+      "What causes stomach pain?",
+      "How can I relieve stomach pain?",
+      "What are the common symptoms of stomach pain?",
+      "Which foods help with stomach pain?",
+      "When should I see a doctor for stomach pain?",
+      "I have stomach pain",
+      "My stomach hurts",
+      "I have abdominal pain",
+      "Stomach cramps relief",
+      "Home remedy for stomach pain",
+      "Why does my stomach hurt after eating",
+      "I have gas and bloating"
+    ],
+    "responses": [
+      "Stomach pain can be caused by indigestion, gas, acidity, infections, or stress.",
+      "Relieve stomach pain by drinking warm water, avoiding spicy foods, and resting. Ginger tea can also help! 🫚",
+      "See a doctor if your stomach pain is severe, lasts more than a few days, or comes with fever or vomiting."
+    ]
+  },
   {
     "tag": "diabetes",
     "patterns": [
-      "I have diabetes."
+      "I have diabetes",
+      "How to manage diabetes",
+      "What should a diabetic eat",
+      "Diet for diabetes",
+      "How to control blood sugar",
+      "Tips for diabetics",
+      "What causes diabetes",
+      "Can diabetes be cured",
+      "How to lower blood sugar naturally",
+      "Diabetes and exercise",
+      "Foods to avoid with diabetes"
     ],
     "responses": [
-      "It's important to manage your diabetes with the guidance of your healthcare provider. Regular check-ups, medication adherence, and lifestyle modifications are crucial. For diabetes, maintaining a healthy diet, regular exercise, and monitoring blood sugar levels are essential."
+      "For diabetes management: Maintain a healthy diet, exercise regularly, monitor blood sugar levels, and follow your doctor's advice.",
+      "Diabetics should focus on low-glycemic foods: vegetables, whole grains, legumes, and lean proteins. Avoid sugary drinks and refined carbs.",
+      "Regular check-ups and medication adherence are crucial for managing diabetes. Always consult your healthcare provider for personalized advice."
     ]
   },
-
   {
     "tag": "high_blood_pressure",
     "patterns": [
-      "I have high blood pressure."
+      "I have high blood pressure",
+      "How to reduce blood pressure",
+      "What causes high blood pressure",
+      "Diet for high blood pressure",
+      "How to control hypertension",
+      "Tips for high blood pressure",
+      "Foods to avoid with high blood pressure",
+      "How to lower BP naturally",
+      "Is high blood pressure dangerous",
+      "Exercises for high blood pressure"
     ],
     "responses": [
-      "For high blood pressure, a low-sodium diet, regular exercise, and medication as prescribed by your doctor can help control your blood pressure."
+      "For high blood pressure: Follow a low-sodium diet, exercise regularly, limit alcohol, and take medication as prescribed by your doctor.",
+      "Foods that help lower BP: Leafy greens, berries, bananas, oats, and beetroot. Avoid excess salt and processed foods.",
+      "Regular monitoring of blood pressure at home is important. Stress management and adequate sleep also help control hypertension."
     ]
   },
-
   {
     "tag": "asthma",
     "patterns": [
-      "I have asthma."
+      "I have asthma",
+      "How to manage asthma",
+      "What triggers asthma",
+      "How to breathe better with asthma",
+      "Tips for asthma patients",
+      "Asthma home remedies",
+      "How to prevent asthma attacks",
+      "Exercise and asthma",
+      "Foods good for asthma"
     ],
     "responses": [
-      "For asthma, using an inhaler as prescribed, avoiding triggers, and practicing breathing exercises can help manage symptoms."
+      "For asthma: Use your inhaler as prescribed, avoid triggers (dust, smoke, pollen), and practice breathing exercises regularly.",
+      "Keep your environment clean and dust-free. Air purifiers can help reduce asthma triggers indoors.",
+      "Breathing exercises like pursed-lip breathing and diaphragmatic breathing can help strengthen your lungs over time."
     ]
   },
   {
     "tag": "heart_disease",
     "patterns": [
-      "I have heart disease."
+      "I have heart disease",
+      "How to keep heart healthy",
+      "Foods good for heart",
+      "How to prevent heart attack",
+      "Heart health tips",
+      "What causes heart disease",
+      "Exercises for heart health",
+      "How to improve heart health",
+      "Diet for heart patients",
+      "Signs of heart problems"
     ],
     "responses": [
-      "For heart disease, a healthy diet, regular exercise, and medication as prescribed by your doctor can reduce the risk of heart attacks and strokes."
+      "For heart health: Eat a diet rich in fruits, vegetables, and whole grains. Avoid saturated fats and excess sodium.",
+      "Regular aerobic exercise like walking, swimming, or cycling is great for heart health. Aim for 150 minutes per week.",
+      "For heart disease patients: Take medication as prescribed, monitor cholesterol and blood pressure regularly, and avoid smoking."
     ]
   },
   {
-      "tag": "stomach_pain",
-      "patterns": [
-          "What causes stomach pain?",
-          "How can I relieve stomach pain?",
-          "What are the common symptoms of stomach pain?",
-          "Which foods help with stomach pain?",
-          "When should I see a doctor for stomach pain?"
-      ],
-      "responses": [
-          "Stomach pain can be caused by indigestion, gas, acidity, infections, or even stress.",
-          "You can relieve stomach pain by drinking warm water, avoiding spicy foods, and taking over-the-counter antacids if needed.",
-          "Common symptoms of stomach pain include bloating, nausea, cramps, and discomfort after eating.",
-          "Foods like ginger, peppermint tea, bananas, and plain yogurt can help ease stomach pain.",
-          "See a doctor if your stomach pain is severe, lasts more than a few days, or is accompanied by fever, vomiting, or blood in stool."
-      ]
+    "tag": "late_night_eating",
+    "patterns": [
+      "Is eating late at night bad?",
+      "Can eating before bed make me gain weight?",
+      "What are the effects of late-night snacking?",
+      "What should I eat if I'm hungry at night?",
+      "How can I stop late-night cravings?",
+      "Is it bad to eat after 9pm",
+      "Midnight snack ideas",
+      "Why do I eat at night",
+      "How to stop eating at night",
+      "What to eat before bed",
+      "Does eating at night cause weight gain"
+    ],
+    "responses": [
+      "Eating late at night can affect digestion and sleep quality. Try to finish your last meal at least 2 hours before bed.",
+      "If you're hungry at night, choose light options: a banana, Greek yogurt, or a handful of nuts instead of junk food 🍌",
+      "To stop late-night cravings: Eat balanced meals during the day, stay hydrated, and brush your teeth early to signal the end of eating."
+    ]
   },
   {
     "tag": "gratitude",
     "patterns": [
-      "I'm not feeling good about myself.",
-      "I need a mood boost.",
-      "I want to practice gratitude."
+      "I'm not feeling good about myself",
+      "I need a mood boost",
+      "I want to practice gratitude",
+      "How to feel better about myself",
+      "I feel sad",
+      "I need motivation",
+      "How to be more positive",
+      "How to improve my mood",
+      "I feel low",
+      "Tips for positivity",
+      "How to think positive",
+      "I need encouragement",
+      "How to practice gratitude"
     ],
     "responses": [
-      "Let's focus on the positive. What are you grateful for today?",
-      "Try saying positive affirmations to yourself, such as 'I am capable,' 'I am worthy,' and 'I am loved.'",
-      "Keeping a gratitude journal can help you focus on the positive aspects of your life."
+      "Let's focus on the positive! Try writing down 3 things you're grateful for today — it really helps shift your mindset 🌟",
+      "Try positive affirmations: 'I am capable', 'I am worthy', 'I am loved'. Repeat them daily!",
+      "Keeping a gratitude journal can help you focus on the good things in life. Start small — even one sentence a day counts!"
     ]
   },
-{
-  "tag": "late_night_eating",
-  "patterns": [
-      "Is eating late at night bad?",
-      "Can eating before bed make me gain weight?",
-      "What are the effects of late-night snacking?",
-      "What should I eat if I’m hungry at night?",
-      "How can I stop late-night cravings?"
-  ],
-  "responses": [
-      "Eating late at night can affect digestion, disrupt sleep, and lead to weight gain if you consume excess calories.",
-      "It depends on what you eat! Unhealthy snacks before bed may contribute to weight gain, while light, nutritious options can be okay.",
-      "Late-night snacking can lead to poor digestion, acid reflux, and unnecessary calorie consumption.",
-      "If you’re hungry at night, choose light options like a banana, Greek yogurt, or a handful of nuts instead of junk food.",
-      "To stop late-night cravings, eat balanced meals during the day, stay hydrated, and brush your teeth early to signal the end of eating."
-  ]
-},
-
-
   {
     "tag": "loneliness",
     "patterns": [
-      "I am feeling Stressed.",
-      "I feel lonely.",
-      "I miss my friends and family.",
-      "I'm isolated."
+      "I feel lonely",
+      "I miss my friends and family",
+      "I'm isolated",
+      "I have no one to talk to",
+      "I feel alone",
+      "How to deal with loneliness",
+      "How to make friends",
+      "I feel disconnected from people",
+      "How to stop feeling lonely",
+      "I feel left out"
     ],
     "responses": [
-      "It's okay to feel lonely sometimes. Reach out to friends and family, or join social groups and clubs to connect with others.",
-      "Try volunteering or helping others to feel more connected to your community.",
-      "Consider using social media or video calls to stay connected with loved ones."
+      "It's okay to feel lonely sometimes. Try reaching out to friends or family — even a short call can make a big difference 💙",
+      "Consider joining social groups, clubs, or online communities around your interests to connect with like-minded people.",
+      "Volunteering is a great way to feel connected and find purpose. You could also try video calls to stay close to loved ones."
     ]
   },
   {
     "tag": "healthy_habits",
     "patterns": [
-      "I want to improve my lifestyle.",
-      "I need help with healthy habits.",
-      "I want to eat healthier."
+      "I want to improve my lifestyle",
+      "I need help with healthy habits",
+      "How to build healthy habits",
+      "Tips for a healthy lifestyle",
+      "How to live healthier",
+      "Daily healthy habits",
+      "How to change my habits",
+      "How to be more disciplined",
+      "Morning routine for good health",
+      "Healthy daily routine",
+      "How to start a healthy lifestyle",
+      "What habits should I build"
     ],
     "responses": [
-      "Start by setting small, achievable goals, like drinking more water or eating more fruits and vegetables.",
-      "Create a balanced meal plan and incorporate regular exercise into your routine.",
-      "Prioritize sleep, manage stress, and practice mindfulness to improve your overall well-being."
+      "Start with small, achievable habits: drink more water, walk daily, sleep on time, and eat more vegetables 🥦",
+      "Build a morning routine: wake up early, hydrate, exercise, eat a healthy breakfast, and plan your day.",
+      "Prioritize sleep, manage stress, limit screen time, and practice mindfulness to improve your overall well-being."
     ]
   },
   {
@@ -358,13 +579,42 @@
     "patterns": [
       "How do I use this chatbot?",
       "What can you do?",
-      "Help me navigate this tool"
+      "Help me navigate this tool",
+      "What topics can you help with",
+      "What do you know about",
+      "What can I ask you",
+      "How does this work",
+      "Help",
+      "I need help",
+      "What are your features",
+      "Guide me"
     ],
     "responses": [
-      "You can ask me about health, fitness, mental well-being, and more. Try typing your question!",
-      "I'm here to provide health tips, answer questions, and give recommendations.",
-      "Use the menu to explore features like conversation history or health tips."
+      "You can ask me about health, fitness, mental well-being, diet, sleep, and more! Just type your question 😊",
+      "I'm here to provide health tips, answer wellness questions, and give recommendations. Try asking about diet, exercise, or sleep!",
+      "Use the menu to explore features like conversation history. Ask me anything related to health and wellness!"
+    ]
+  },
+  {
+    "tag": "emergency_information",
+    "patterns": [
+      "What should I do for a burn?",
+      "How do I perform CPR?",
+      "Help, I cut myself",
+      "First aid for bleeding",
+      "Someone fainted what do I do",
+      "How to treat a wound",
+      "Emergency first aid tips",
+      "What to do in a medical emergency",
+      "How to treat a sprain",
+      "Someone is choking what do I do",
+      "First aid for burns",
+      "How to stop bleeding"
+    ],
+    "responses": [
+      "For minor burns: Cool the area under running water for 10 minutes and cover with a clean cloth. Seek help for severe burns.",
+      "CPR: Give 30 chest compressions followed by 2 rescue breaths. Repeat until help arrives. Call emergency services immediately! 🚨",
+      "For cuts: Clean the wound with water, apply pressure to stop bleeding, and cover with a sterile bandage. See a doctor if deep."
     ]
   }
-
 ]

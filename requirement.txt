@@ -1,1 +1,4 @@
 nltk
+scikit-learn
+streamlit
+scipy
