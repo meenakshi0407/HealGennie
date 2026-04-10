@@ -13,3 +13,5 @@ The dataset used in this project is a collection of labelled intents and entitie
 Intents: The intent of the user input (e.g. "greeting", "How can I lose weight?", "about")
 Entities: The entities extracted from user input (e.g. "Hi", "How much I drink water?", "I have anxiety?")
 Text: The user input text.
+
+![alt text](<Screenshot 2026-04-10 171803.png>)
