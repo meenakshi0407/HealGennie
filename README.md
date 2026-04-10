@@ -15,7 +15,7 @@ Entities: The entities extracted from user input (e.g. "Hi", "How much I drink w
 Text: The user input text.
 
 Chatbot Interface: 
-<img width="400" height="300" alt="Screenshot 2026-04-10 171715" src="https://github.com/user-attachments/assets/8c348429-cfa8-4a99-b561-89e204a19320" />
 
+<img width="400" height="300" alt="Screenshot 2026-04-10 171715" src="https://github.com/user-attachments/assets/8c348429-cfa8-4a99-b561-89e204a19320" />
 <img width="400" height="300" alt="Screenshot 2026-04-10 171803" src="https://github.com/user-attachments/assets/3ed86efb-f730-4795-b91f-4bfec9001ec2" />
 
